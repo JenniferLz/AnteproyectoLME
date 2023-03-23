@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viajes</title>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!--custom css file cdn link-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+<!--header inicio-->
+
+<header class="header">
+
+    <a href="#" class="logo"><i class="fas fa-paper-plane"></i>travel</a>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="Buscar..." id="searchBox">
+        <label for="searchBox" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-moon" id="theme-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#paquetes">paquetes</a>
+        <a href="#servicios">servicios</a>
+        <a href="#precios">precios</a>
+        <a href="#clientes">clientes</a>
+        <a href="#contactanos">contactanos</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <form action="" class="login-form">
+
+        <div class="inputBox">
+            <span>Nombre del usuario</span>
+            <input type="text" placeholder="Ingresa tu nombre">
+        </div>
+
+        <div class="inputBox">
+            <span>contraseña</span>
+            <input type="password" placeholder="Ingresa tu contraseña">
+        </div>
+
+        <div class="remember">
+            <input type="checkbox" name="" id="login-remember">
+            <label for="login-remember">Recordar</label>
+        </div>
+
+        <input type="submit" class="btn" value="login">
+
+    </form>
+
+</header>
+
+<!--header final-->
+
+<!--home inicio-->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="img/img1.svg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Viajar por el mundo</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus officia pariatur quisquam voluptatibus ipsum aliquid, blanditiis voluptatem unde impedit eaque! Eos animi sint eligendi distinctio laudantium laborum deleniti eveniet quod.</p>
+        <a href="#" class="btn">Explora ahora</a>
+    </div>
+</section>
+
+<!--home final-->
+
+<!--busqueda inicio-->
+
+<section class="form-container">
+
+    <form action="">
+
+        <div class="inputBox">
+            <span>Lugar</span>
+            <input type="text" placeholder="Buscar destinos">
+        </div>
+
+        <div class="inputBox">
+            <span>inicio del viaje</span>
+            <input type="date">
+        </div>
+
+        <div class="inputBox">
+            <span>Fin del viaje</span>
+            <input type="date">
+        </div>
+
+        <input type="submit" value="Reservar ya!" class="btn">
+    </form>
+</section>
+<!--busqueda final-->
+
+<!--paquetes inicio-->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading"> Nuestros <span>paquetes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="img/paris.jpg" alt="">
+                <h3><i class="fas fa-map-maker-alt"></i> Francia, Paris </h3>
+            </div>
+            <div class="content">
+                <div class="price"> $999 <span>$1,200</span> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet delectus hic provident earum. Obcaecati repudiandae animi quaerat quod vel? Temporibus voluptates aperiam saepe quia enim placeat ab inventore itaque.</p>
+                <a href="#" class="btn"> Reserva ya!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/madrid.jpg" alt="">
+                <h3><i class="fas fa-map-maker-alt"></i> España, Madrid </h3>
+            </div>
+            <div class="content">
+                <div class="price"> $999 <span>$1,200</span> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet delectus hic provident earum. Obcaecati repudiandae animi quaerat quod vel? Temporibus voluptates aperiam saepe quia enim placeat ab inventore itaque.</p>
+                <a href="#" class="btn"> Reserva ya!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/londres.jpg" alt="">
+                <h3><i class="fas fa-map-maker-alt"></i> Inglaterra, londres </h3>
+            </div>
+            <div class="content">
+                <div class="price"> $999 <span>$1,200</span> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet delectus hic provident earum. Obcaecati repudiandae animi quaerat quod vel? Temporibus voluptates aperiam saepe quia enim placeat ab inventore itaque.</p>
+                <a href="#" class="btn"> Reserva ya!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/andorra.jpg" alt="">
+                <h3><i class="fas fa-map-maker-alt"></i> Andorra, Andorra la Vella </h3>
+            </div>
+            <div class="content">
+                <div class="price"> $999 <span>$1,200</span> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet delectus hic provident earum. Obcaecati repudiandae animi quaerat quod vel? Temporibus voluptates aperiam saepe quia enim placeat ab inventore itaque.</p>
+                <a href="#" class="btn"> Reserva ya!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/barcelona.jpg" alt="">
+                <h3><i class="fas fa-map-maker-alt"></i> España, Barcelona </h3>
+            </div>
+            <div class="content">
+                <div class="price"> $999 <span>$1,200</span> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet delectus hic provident earum. Obcaecati repudiandae animi quaerat quod vel? Temporibus voluptates aperiam saepe quia enim placeat ab inventore itaque.</p>
+                <a href="#" class="btn"> Reserva ya!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/venecia.jpg" alt="">
+                <h3><i class="fas fa-map-maker-alt"></i> Italia, Venecia </h3>
+            </div>
+            <div class="content">
+                <div class="price"> $999 <span>$1,200</span> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet delectus hic provident earum. Obcaecati repudiandae animi quaerat quod vel? Temporibus voluptates aperiam saepe quia enim placeat ab inventore itaque.</p>
+                <a href="#" class="btn"> Reserva ya!</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--paquetes final-->
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
