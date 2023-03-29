@@ -38,4 +38,16 @@ themeBtn.onclick = () =>{
     } else{
         document.body.classList.remove('active');
     }
-}
+};
+
+var swiper = new Swiper(".review-slider", {
+    loop: true,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 5500,
+        disableOnInteraction: false,
+    },    
+    pagination: {
+      el: ".swiper-pagination",
+    },
+});
