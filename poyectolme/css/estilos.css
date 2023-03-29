@@ -39,7 +39,7 @@ html ::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: var(--bg-color-1);
+    background: var(--bg-color-2);
 }
 
 body.active{
@@ -285,7 +285,7 @@ section .btn{
 }
 
 .form-container form{
-    background: var(--bg--color-1);
+    background: var(--bg-color-1);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2rem;
